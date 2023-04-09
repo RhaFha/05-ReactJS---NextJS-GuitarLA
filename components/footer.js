@@ -12,11 +12,11 @@ function Footer() {
           <Link href={'/nosotros'} legacyBehavior>
             Nosotros
           </Link>
-          <Link href={'/blog'} legacyBehavior>
-            Blog
-          </Link>
           <Link href={'/tienda'} legacyBehavior>
             Tienda
+          </Link>
+          <Link href={'/blog'} legacyBehavior>
+            Blog
           </Link>
         </nav>
         <p className={styles.copyrigth}>Todos los derechos reservados {new Date().getFullYear()}</p>

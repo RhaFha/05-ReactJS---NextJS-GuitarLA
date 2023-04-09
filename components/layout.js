@@ -12,7 +12,6 @@ function Layout({children , title='', description=''}) {
         <meta name='description' content={description} />
     </Head>
     <Header />
-    <h1>Desde layout</h1>
       {children}
     <Footer />
     </>
