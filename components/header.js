@@ -26,6 +26,11 @@ function Header() {
           <Link href={'/blog'} legacyBehavior>
             <a className={router.pathname === '/blog' ? styles.active : ''}>Blog</a> 
           </Link>
+          <Link href={'/carrito'} legacyBehavior>
+            <a className={router.pathname === '/blog' ? styles.active : ''}>
+              <Image src={'/img/carrito.png'} alt='carrito' width={30} height={25} />
+            </a> 
+          </Link>
         </nav>
       </div>
     </header>
